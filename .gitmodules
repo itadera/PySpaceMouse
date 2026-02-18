@@ -1,0 +1,3 @@
+[submodule "pyspacemouse/easyhid"]
+	path = pyspacemouse/easyhid
+	url = https://github.com/itadera/python-easyhid.git
