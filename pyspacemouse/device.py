@@ -15,13 +15,13 @@ from __future__ import annotations
 import timeit
 from typing import TYPE_CHECKING, Callable, List, Optional, Sequence
 
-from easyhid import HIDException
+from .easyhid.easyhid import HIDException
 
 from .callbacks import ButtonCallback, Config, DofCallback
 from .types import AXIS_NAMES, ButtonState, DeviceInfo, SpaceMouseState
 
 if TYPE_CHECKING:
-    from easyhid import Device as HIDDevice
+    from .easyhid.easyhid import Device as HIDDevice
 
 # High-accuracy clock for timing
 high_acc_clock = timeit.default_timer

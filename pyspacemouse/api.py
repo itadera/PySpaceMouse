@@ -19,7 +19,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Callable, List, Optional, Sequence, Tuple
 
-from easyhid import Enumeration
+from .easyhid.easyhid import Enumeration
 
 from .callbacks import ButtonCallback, Config, DofCallback
 from .device import SpaceMouseDevice
